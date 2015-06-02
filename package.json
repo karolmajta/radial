@@ -1,0 +1,24 @@
+{
+  "name": "radial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_PATH=$(pwd)/src/js vows"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^10.2.3",
+    "ecstatic": "^0.8.0",
+    "gulp": "^3.9.0",
+    "gulp-livereload": "^3.8.0",
+    "immutable": "^3.7.3",
+    "pixi.js": "^3.0.6",
+    "promise": "^7.0.1",
+    "should": "^6.0.3",
+    "vinyl-source-stream": "^1.1.0",
+    "vows": "^0.8.1",
+    "watchify": "^3.2.1"
+  }
+}
